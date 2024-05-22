@@ -6,7 +6,7 @@ phases:
   build:
     commands:
       - echo "Copying DAG files to S3..."
-      - aws s3 cp --recursive ./dags s3://airflow-managed-gds11/dags/
+      - aws s3 cp --recursive ./dags s3://airflow-managed-gds12/dags/
       - echo "Copying dim data files to S3..."
       - aws s3 cp --recursive ./food_data s3://food-delivery12/food_delivery_data/
       - echo "Copying pyspark scripts to S3..."
