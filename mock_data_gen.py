@@ -40,4 +40,4 @@ if __name__ =="__main__":
     while start_date <=end_date:
         generate_daily_food_data(num_records,start_date)
         start_date +=timedelta(days=1)
-
+        
